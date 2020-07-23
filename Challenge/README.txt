@@ -4,9 +4,9 @@
 ANS: Hidden layer 1 has 50 nodes and hidden layer 2 has 30 nodes. In total,
     there are 80 nodes. I chose to use 80 nodes because it is 
     recommended to use double the amount of inputs as our amount
-    of nodes. In this case our "inputs" (i.e. len(X_train_scaled[0]))
+    of nodes. In this case our "inputs" (i.e. len(X_train[0]))
     is 40. Thus, our nodes should be twice as much
-    (i.e total nodes = 2 * len(X_train_scaled[0])).
+    (i.e total nodes = 2 * len(X_train[0])).
 
 2. Were you able to achieve the target model performance?
     What steps did you take to try and increase model performance?
